@@ -1,0 +1,47 @@
+section *{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 300px;
+    padding: 20px;
+    margin: 0 auto;
+    background: linear-gradient(rgb(90, 154, 175) 40%, rgb(70, 122, 156) 100%);
+    border-radius: 20px;
+    color: black;
+    margin-top: 10%;
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+input{
+    box-sizing: border-box;
+}
+
+input[type=number]{
+    width: 100%;
+}
+
+input[type=button]{
+    background: rgb(158, 107, 13);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #999;
+    margin: 10px 0;
+}
+
+input[type=button]:hover
+{
+    background: sandybrown;
+}
+#demo1
+{
+    color: saddlebrown;
+}
